@@ -16,13 +16,15 @@ import { FlatpickrModule } from 'angularx-flatpickr';
 
 import { registerLocaleData } from '@angular/common';
 import localeEs from '@angular/common/locales/es-CO';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 registerLocaleData(localeEs, 'es-CO');
 
 @NgModule({
   declarations: [
     AppComponent,
-    CalendarioComponent
+    CalendarioComponent,
+    NavbarComponent
   ],
   imports: [
 
